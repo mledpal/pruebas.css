@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{{ URL::asset('/css/inicio.css')}}">
+    <link rel="stylesheet" href="{{ URL::asset('/css/olas.css')}}">
+    
+
+    <title>Inicio</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="item"><a href="/borderglow">Border Glow</a></li>
+            <li class="item"><a href="/botoneschulos">Botones Chulos</a></li>
+            <li class="item"><a href="/contentslider">Content Slider</a></li>
+            <li class="item"><a href="/glasseffect">Glass Effect</a></li>
+            <li class="item"><a href="/glowingcheckbox">Glowing Checkbox</a></li>
+            <li class="item"><a href="/menulateral">Menu Lateral</a></li>  
+            <li class="item"><a href="/menumolon">Menu Molon</a></li>  
+            <li class="item"><a href="/neonbutton">Neon Button</a></li>  
+            <li class="item"><a href="/showhidepassword">Show Hide Password</a></li>
+            <li class="item"><a href="/simpleparalax">Simple Paralax</a></li>
+            <li class="item"><a href="/starbucks">Starbucks</a></li>
+            <li class="item"><a href="/textdistortion">Text Distortion</a></li>
+            <li class="item"><a href="/transparentlogin">Transparent Login</a></li>
+        </ul>
+    </nav>
+
+
+    <section id="olas">        
+        <div class="waves">
+            <img class="stars" src=" {{ URL::asset('img/olas/stars.jpg') }} ">
+            <img class="island" src=" {{ URL::asset('img/olas/island.png') }} ">
+            <div class="wave" id="wave1"></div>
+            <div class="wave" id="wave2"></div>
+            <div class="wave" id="wave3"></div>
+            <div class="wave" id="wave4"></div>
+        </div>        
+    </section>  
+
+
+    <script src="{{ URL::asset('js/inicio.js')}}"></script>   
+</body>
+</html>
