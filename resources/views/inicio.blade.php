@@ -18,13 +18,16 @@
             <li class="item"><a href="/contentslider">Content Slider</a></li>
             <li class="item"><a href="/glasseffect">Glass Effect</a></li>
             <li class="item"><a href="/glowingcheckbox">Glowing Checkbox</a></li>
+            <li class="item"><a href="/invertedborder">Border Radius Card</a></li>
             <li class="item"><a href="/menulateral">Menu Lateral</a></li>  
             <li class="item"><a href="/menumolon">Menu Molon</a></li>  
             <li class="item"><a href="/neonbutton">Neon Button</a></li>  
+            <li class="item"><a href="/pagescroll">ScrollSpy JavaScript</a></li> 
             <li class="item"><a href="/showhidepassword">Show Hide Password</a></li>
             <li class="item"><a href="/simpleparalax">Simple Paralax</a></li>
             <li class="item"><a href="/starbucks">Starbucks</a></li>
             <li class="item"><a href="/textdistortion">Text Distortion</a></li>
+            <li class="item"><a href="/tic-tac-toe">Tic-Tac-Toe</a></li>
             <li class="item"><a href="/transparentlogin">Transparent Login</a></li>
         </ul>
     </nav>

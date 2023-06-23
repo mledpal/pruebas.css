@@ -65,4 +65,16 @@ class PruebasController extends Controller
         return view ('showhidepassword');
     }
     
+    public function invertedborder() {
+        return view ('invertedborder');
+    }
+
+    public function pagescroll() {
+        return view ('pagescroll');
+    }
+    
+    public function tictactoe() {
+        return view ('tictactoe');
+    }
+    
 }

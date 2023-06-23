@@ -11,7 +11,7 @@
     <div class="navigation">
         <ul>
             <li class="list active">
-                <a href="#">
+                <a href="./">
                     <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
                     <span class="title">Inicio</span>
 

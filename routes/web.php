@@ -51,5 +51,8 @@ Route::controller(PruebasController::class)->group(function() {
     Route::get('/glasseffect', 'glasseffect')->name('glasseffect');
     Route::get('/simpleparalax', 'simpleparalax')->name('simpleparalax');
     Route::get('/showhidepassword', 'showhidepassword')->name('showhidepassword');
+    Route::get('/invertedborder', 'invertedborder')->name('invertedborder');
+    Route::get('/pagescroll', 'pagescroll')->name('pagescroll');
+    Route::get('/tic-tac-toe', 'tictactoe')->name('tictactoe');
     
 });
