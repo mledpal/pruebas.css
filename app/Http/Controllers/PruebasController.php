@@ -76,5 +76,9 @@ class PruebasController extends Controller
     public function tictactoe() {
         return view ('tictactoe');
     }
+
+    public function ranklist() {
+        return view ('ranklist');
+    }
     
 }

@@ -54,5 +54,5 @@ Route::controller(PruebasController::class)->group(function() {
     Route::get('/invertedborder', 'invertedborder')->name('invertedborder');
     Route::get('/pagescroll', 'pagescroll')->name('pagescroll');
     Route::get('/tic-tac-toe', 'tictactoe')->name('tictactoe');
-    
+    Route::get('/rank-list', 'ranklist')->name('ranklist');
 });
