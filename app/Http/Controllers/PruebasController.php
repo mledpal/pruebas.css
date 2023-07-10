@@ -81,4 +81,7 @@ class PruebasController extends Controller
         return view ('ranklist');
     }
     
+    public function grocerylist() {
+        return view ('grocerylist');
+    }
 }
