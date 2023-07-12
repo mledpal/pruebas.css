@@ -84,4 +84,8 @@ class PruebasController extends Controller
     public function grocerylist() {
         return view ('grocerylist');
     }
+
+    public function paralaxlogin() {
+        return view ('paralaxlogin');
+    }
 }

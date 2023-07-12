@@ -56,4 +56,5 @@ Route::controller(PruebasController::class)->group(function() {
     Route::get('/tic-tac-toe', 'tictactoe')->name('tictactoe');
     Route::get('/rank-list', 'ranklist')->name('ranklist');
     Route::get('/grocerylist', 'grocerylist')->name('grocerylist');
+    Route::get('/paralaxlogin', 'paralaxlogin')->name('paralaxlogin');
 });

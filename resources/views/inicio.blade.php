@@ -24,6 +24,7 @@
             <li class="item"><a href="/menumolon">Menu Molon</a></li>  
             <li class="item"><a href="/neonbutton">Neon Button</a></li>  
             <li class="item"><a href="/pagescroll">ScrollSpy JavaScript</a></li> 
+            <li class="item"><a href="/paralaxlogin">Paralax Login</a></li> 
             <li class="item"><a href="/rank-list">Rank List</a></li> 
             <li class="item"><a href="/showhidepassword">Show Hide Password</a></li>
             <li class="item"><a href="/simpleparalax">Simple Paralax</a></li>
