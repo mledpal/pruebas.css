@@ -13,9 +13,11 @@
 <body>
     <nav>
         <ul>
+            <li class="item"><a href="/animatedlogin">Animated Login Form</a></li>
             <li class="item"><a href="/borderglow">Border Glow</a></li>
             <li class="item"><a href="/botoneschulos">Botones Chulos</a></li>
             <li class="item"><a href="/contentslider">Content Slider</a></li>
+            <li class="item"><a href="/dialclimatico">Dial Climático</a></li>
             <li class="item"><a href="/glasseffect">Glass Effect</a></li>
             <li class="item"><a href="/glowingcheckbox">Glowing Checkbox</a></li>
             <li class="item"><a href="/grocerylist">Grocery List</a></li>

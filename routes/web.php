@@ -57,4 +57,6 @@ Route::controller(PruebasController::class)->group(function() {
     Route::get('/rank-list', 'ranklist')->name('ranklist');
     Route::get('/grocerylist', 'grocerylist')->name('grocerylist');
     Route::get('/paralaxlogin', 'paralaxlogin')->name('paralaxlogin');
+    Route::get('/dialclimatico', 'dialclimatico')->name('dialclimatico');
+    Route::get('animatedlogin', 'animatedlogin')->name('animatedlogin');
 });

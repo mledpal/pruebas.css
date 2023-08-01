@@ -88,4 +88,12 @@ class PruebasController extends Controller
     public function paralaxlogin() {
         return view ('paralaxlogin');
     }
+
+    public function dialclimatico() {
+        return view ('dialclimatico');
+    }
+
+    public function animatedlogin() {
+        return view ('animatedlogin');
+    }
 }
