@@ -30,18 +30,18 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-require __DIR__.'/auth.php';
+require __DIR__ . '/auth.php';
 
-Route::controller(YoutubeController::class)->group(function() {
-    Route::get('/yt', 'index')->name('yt.index');    
+Route::controller(YoutubeController::class)->group(function () {
+    Route::get('/yt', 'index')->name('yt.index');
 });
 
-Route::controller(PruebasController::class)->group(function() {
+Route::controller(PruebasController::class)->group(function () {
     Route::get('/starbucks', 'starbucks')->name('starbucks');
-    Route::get('/borderglow' , 'borderglow')->name('borderglow');
-    Route::get('/transparentlogin' , 'transparentlogin')->name('transparentlogin');
-    Route::get('/menulateral' , 'menulateral')->name('menulateral');
-    Route::get('/menumolon' , 'menumolon')->name('menumolon');
+    Route::get('/borderglow', 'borderglow')->name('borderglow');
+    Route::get('/transparentlogin', 'transparentlogin')->name('transparentlogin');
+    Route::get('/menulateral', 'menulateral')->name('menulateral');
+    Route::get('/menumolon', 'menumolon')->name('menumolon');
     Route::get('/botoneschulos', 'botoneschulos')->name('botoneschulos');
     Route::get('/neonbutton', 'neonbutton')->name('neonbutton');
     Route::get('/olas', 'olas')->name('olas');
@@ -59,4 +59,5 @@ Route::controller(PruebasController::class)->group(function() {
     Route::get('/paralaxlogin', 'paralaxlogin')->name('paralaxlogin');
     Route::get('/dialclimatico', 'dialclimatico')->name('dialclimatico');
     Route::get('animatedlogin', 'animatedlogin')->name('animatedlogin');
+    Route::get('glassmorphism', 'glassmorphism')->name('glassmorphism');
 });

@@ -28,12 +28,12 @@ body {
 
 nav {
     position:absolute;
-    top: 10%;
-    right: 5vw;    
-    width: 50vw;
+    top: 100px;
+    right: 100px;    
+    width: 30vw;
     border-radius: 10px;
     background: var(--bg-transparent-color);
-    box-shadow: 15px 0px var(--bg-active-transparent-color);
+    box-shadow: 5px 5px 15px var(--bg-active-transparent-color), 5px 5px 5px var(--bg-color) inset;
 }
 
 ul {
@@ -48,6 +48,7 @@ ul {
     align-items: center;    
     line-height: 2.5em;    
     z-index: 10;
+    gap: 5px;
 }
 
 nav ul li {
@@ -56,20 +57,16 @@ nav ul li {
     top: 0;
     left: 0;
     list-style: none;    
-    padding: 10px 30px;    
+    
     transition: .5s;
-
-    display:flex;
-    align-items: center;
-    justify-content: center;
 }
 
 nav ul li a {    
     border-radius: 20px;
     text-decoration: none;
     letter-spacing: .1em;    
-    color: #fff;
-    font-size: 1em;
+    color: #eee;
+    font-size: .8rem;
     transition: .5s;
     padding: 5px 10px;
 }
@@ -77,6 +74,7 @@ nav ul li a {
 nav ul li a:hover {    
     transition: .5s;
     letter-spacing: .3em;
-    color:rgb(95, 52, 173);
+    color:#fff;
     background: var(--bg-active-transparent-color);
+    box-shadow: 5px 5px 15px var(--bg-active-transparent-color), 5px 5px 5px #999 inset;
 }
