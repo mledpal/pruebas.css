@@ -25,6 +25,7 @@
             <li class="item"><a href="/invertedborder">Border Radius Card</a></li>
             <li class="item"><a href="/menulateral">Menu Lateral</a></li>  
             <li class="item"><a href="/menumolon">Menu Molon</a></li>  
+            <li class="item"><a href="/navigationtabs">Navigation Tabs Glass</a></li>  
             <li class="item"><a href="/neonbutton">Neon Button</a></li>  
             <li class="item"><a href="/pagescroll">ScrollSpy JavaScript</a></li> 
             <li class="item"><a href="/paralaxlogin">Paralax Login</a></li> 

@@ -58,6 +58,7 @@ Route::controller(PruebasController::class)->group(function () {
     Route::get('/grocerylist', 'grocerylist')->name('grocerylist');
     Route::get('/paralaxlogin', 'paralaxlogin')->name('paralaxlogin');
     Route::get('/dialclimatico', 'dialclimatico')->name('dialclimatico');
-    Route::get('animatedlogin', 'animatedlogin')->name('animatedlogin');
-    Route::get('glassmorphism', 'glassmorphism')->name('glassmorphism');
+    Route::get('/animatedlogin', 'animatedlogin')->name('animatedlogin');
+    Route::get('/glassmorphism', 'glassmorphism')->name('glassmorphism');
+    Route::get('/navigationtabs', 'navigationtabs')->name('navigationtabs');
 });

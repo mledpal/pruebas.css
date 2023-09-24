@@ -122,4 +122,9 @@ class PruebasController extends Controller
     {
         return view('glassmorphism');
     }
+
+    public function navigationtabs()
+    {
+        return view('navigationtabs');
+    }
 }
