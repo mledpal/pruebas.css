@@ -23,7 +23,7 @@
         </div>
         <div class="inputBox group">
           <a href="#">Olvidé la contraseña</a>
-          <a href="#" id="signup">Login</a>
+          <a href="#" id="signup">Registrarse</a>
         </div>
         <div class="inputBox">
           <input type="submit" value="Login">
@@ -31,7 +31,7 @@
       </form>
 
       <form id="signupform">
-        <h2>Register</h2>
+        <h2>Registro</h2>
         <div class="inputBox">
           <input type="text" placeholder="Usuario">
         </div>
