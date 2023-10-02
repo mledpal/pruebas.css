@@ -19,6 +19,7 @@
             <li class="item"><a href="/contentslider">Content Slider</a></li>
             <li class="item"><a href="/dialclimatico">Dial Climático</a></li>
             <li class="item"><a href="/glasseffect">Glass Effect</a></li>
+            <li class="item"><a href="/glasslogin">Glassmorphism L&R</a></li>
             <li class="item"><a href="/glassmorphism">Glassmorphism Cards</a></li>
             <li class="item"><a href="/glowingcheckbox">Glowing Checkbox</a></li>
             <li class="item"><a href="/grocerylist">Grocery List</a></li>

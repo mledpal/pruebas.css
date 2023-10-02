@@ -127,4 +127,9 @@ class PruebasController extends Controller
     {
         return view('navigationtabs');
     }
+
+    public function glasslogin()
+    {
+        return view('glasslogin');
+    }
 }
