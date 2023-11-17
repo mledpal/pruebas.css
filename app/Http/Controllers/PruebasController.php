@@ -132,4 +132,9 @@ class PruebasController extends Controller
     {
         return view('glasslogin');
     }
+
+    public function countdown()
+    {
+        return view('countdown');
+    }
 }

@@ -62,4 +62,5 @@ Route::controller(PruebasController::class)->group(function () {
     Route::get('/glassmorphism', 'glassmorphism')->name('glassmorphism');
     Route::get('/navigationtabs', 'navigationtabs')->name('navigationtabs');
     Route::get('/glasslogin', 'glasslogin')->name('glasslogin');
+    Route::get('/countdown', 'countdown')->name('countdown');
 });
