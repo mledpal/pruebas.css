@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+}
+
+:root {
+    --primary-color : #0a4261;
+    /* --primary-color: #f87e18; */
+    --secondary-color : #fff;
+    /* --secondary-color :#111; */
+}
+
+body {
+    background: rgba(0, 0, 0, 0.2) url("../img/glasslogin2/bg2.jpg") center/cover no-repeat fixed;
+    /* background: rgba(0, 0, 0, 0.2) url("../img/glasslogin2/background.webp") center/cover no-repeat */
+}
+
+a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+.logo img {
+    width: 300px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    padding: 1rem;
+}
+
+.login-wrapper {
+    position: relative;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 15px;
+    backdrop-filter: blur(25px);
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.2);
+    color: var(--secondary-color);
+}
+
+.login-header {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1.5rem;
+    transform: translateX(-50%);
+    border-radius: 0 0 20px 20px;
+    background-color: var(--primary-color);
+    color: black;
+    font-size: clamp(1rem, 5vw, 3rem);
+}
+
+.login-header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -30px;
+    width: 30px;
+    height: 30px;
+    border-top-right-radius: 50%;
+    background: transparent;
+    box-shadow: 15px 0 0 0 var(--primary-color);
+}
+
+.login-header::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -30px;
+    width: 30px;
+    height: 30px;
+    border-top-left-radius: 50%;
+    background: transparent;
+    box-shadow: -15px 0 0 0 var(--primary-color);
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    font-size: clamp(0.8rem, 3vw, 1rem);
+    gap: 1rem;
+}
+
+.input-wrapper{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.input-field {
+    width: 100%;
+    padding: 0.5rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 30px;
+    outline: none;
+    background: transparent;
+    color: var(--secondary-color);
+}
+
+.label {
+    position: absolute;
+    font-size: .7rem;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    transition: 0.2s;
+}
+
+.input-field:focus~.label,
+.input-field:valid~.label {
+    position: absolute;
+    padding: 0 0.2rem;
+    top: 0%;
+    left: 30%;
+    border-radius: 30px;
+    background-color: var(--primary-color);
+    color: black;
+}
+
+.icon {
+    position: absolute;
+    top: 18px;
+    right: 25px;
+}
+
+.login-check {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.forgot {
+    font-size: clamp(0.7rem, 2vw, .8rem);
+}
+
+.input-login {
+    width: 100%;
+    padding: 0.6rem;
+    border: none;
+    color: rgba(255,255,255,0.8);
+    border-radius: 30px;
+    background: var(--primary-color);
+    box-shadow: inset 0 0 10px 2px rgba(0,0,0,0.2);
+    font-size: clamp(1rem, 3vw, 1.3rem);
+    font-weight: 600;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.input-login:hover {
+    background: var(--secondary-color);
+    color: var(--primary-color);
+    box-shadow: inset 0 0 10px 2px rgba(0, 0, 0, 0.6);
+}
+
+.register {
+    text-align: center;
+}
+
+.register a {
+    color: var(--primary-color);
+    font-weight: 500;
+}
+a:hover {
+    color: var(--secondary-color);
+    text-decoration: none;
+}

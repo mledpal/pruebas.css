@@ -63,4 +63,7 @@ Route::controller(PruebasController::class)->group(function () {
     Route::get('/navigationtabs', 'navigationtabs')->name('navigationtabs');
     Route::get('/glasslogin', 'glasslogin')->name('glasslogin');
     Route::get('/countdown', 'countdown')->name('countdown');
+    Route::get('/countdown', 'countdown')->name('countdown');
+    Route::get('/tveocards', 'tveocards')->name('tveocards');
+    Route::get('/glasslogin2', 'glasslogin2')->name('glasslogin2');
 });

@@ -137,4 +137,12 @@ class PruebasController extends Controller
     {
         return view('countdown');
     }
+
+    public function tveocards() {
+        return view('tveocards');
+    }
+
+    public function glasslogin2() {
+        return view('glasslogin2');
+    }
 }
