@@ -12,7 +12,7 @@
       <span></span>
       <span></span>
       <span></span>
-      
+
       <form id="signinform">
         <h2>Login</h2>
         <div class="inputBox">
@@ -48,7 +48,7 @@
           <input type="submit" value="Registrarse">
         </div>
         <div class="inputBox group">
-          <a href="#">¿Ya registrado? <b id="signin">Login</b></a>          
+          <a href="#">¿Ya registrado? <b id="signin">Login</b></a>
         </div>
       </form>
 

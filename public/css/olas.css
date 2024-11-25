@@ -1,16 +1,16 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;    
+    font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
-}   
+}
 
 body {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     min-height: 100vh;
-    background: #1f2028;
+    /* background: #1f2028; */
 }
 
 section {
@@ -19,7 +19,7 @@ section {
 }
 
 .waves {
-    position: relative;    
+    position: relative;
 }
 
 .waves .wave {
@@ -29,35 +29,35 @@ section {
     width: 100%;
     height: 100px;
     background: url('../img/olas/wave.png');
-    background-size: 1000px 100px;           
+    background-size: 1000px 100px;
 }
 
 .waves .wave#wave1 {
     opacity: 1;
-    bottom: 0;  
+    bottom: 0;
     z-index: 1000;
-    animation: animate 4s linear infinite;  
+    animation: animate 4s linear infinite;
 }
 
 .waves .wave#wave2 {
     opacity: .5;
-    bottom: 10px;  
+    bottom: 10px;
     z-index: 999;
-    animation: animate2 4s linear infinite;  
+    animation: animate2 4s linear infinite;
 }
 
 .waves .wave#wave3 {
     opacity: .2;
-    bottom: 15px;  
+    bottom: 15px;
     z-index: 998;
-    animation: animate 2s linear infinite;  
+    animation: animate 2s linear infinite;
 }
 
 .waves .wave#wave4 {
     opacity: .7;
-    bottom: 20px;  
+    bottom: 20px;
     z-index: 999;
-    animation: animate2 2s linear infinite;  
+    animation: animate2 2s linear infinite;
 }
 
 @keyframes animate {
@@ -66,7 +66,7 @@ section {
     }
     100% {
         background-position: 0;
-    }    
+    }
 }
 
 @keyframes animate2 {
@@ -74,7 +74,7 @@ section {
         background-position: 0;
     }
     100% {
-        background-position: 1000px;    }    
+        background-position: 1000px;    }
 }
 
 .stars {
@@ -93,5 +93,5 @@ section {
     left: 25%;
     transform: translateX(-50%);
     pointer-events: none;
-    width: 65vw;    
+    width: 65vw;
 }

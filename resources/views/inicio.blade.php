@@ -13,6 +13,7 @@
 </head>
 
 <body>
+    <div class="contenedor"></div>
     <nav>
         <ul>
             <li class="item"><a href="/animatedlogin">Animated Login Form</a></li>
@@ -48,7 +49,7 @@
 
     <section id="olas">
         <div class="waves">
-            <img class="stars" src=" {{ URL::asset('img/olas/stars.jpg') }} ">
+            {{-- <img class="stars" src=" {{ URL::asset('img/olas/stars.jpg') }} "> --}}
             <img class="island" src=" {{ URL::asset('img/olas/island.png') }} ">
             <div class="wave" id="wave1"></div>
             <div class="wave" id="wave2"></div>

@@ -22,7 +22,7 @@ body::before {
   background-position: center;
 }
 
-body::after 
+body::after
 {
   content: '';
   position: absolute;
@@ -74,7 +74,7 @@ body.signup .container
 body.signup .container::before {
   filter: hue-rotate(140deg);
 }
-@property --a 
+@property --a
 {
   syntax: "<angle>";
   inherits: false;
@@ -94,10 +94,10 @@ body.signup .container::before {
   position: absolute;
   inset: 5px;
   overflow: hidden;
-  border-radius: 15px;  
+  border-radius: 15px;
 }
 
-.container span::before { 
+.container span::before {
   content: '';
   position: absolute;
   inset: 5px;
@@ -108,7 +108,7 @@ body.signup .container::before {
   filter: blur(10px);
 }
 
-.container span::after { 
+.container span::after {
   content: '';
   position: absolute;
   inset: 5px;
@@ -128,7 +128,7 @@ body.signup .container span::after {
   filter: blur(15px);
 }
 
-form 
+form
 {
   position: absolute;
   left: 0;
@@ -138,7 +138,7 @@ form
   flex-direction: column;
   width: 100%;
   gap: 15px;
-  transition: .5s;   
+  transition: .5s;
 }
 
 form#signupform {
@@ -146,7 +146,7 @@ form#signupform {
 }
 body.signup form#signinform
 {
-  left: -100%;  
+  left: -100%;
 }
 
 body.signup form#signupform {
@@ -160,20 +160,20 @@ form h2 {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   font-weight: 500;
-  margin-bottom: 10px;  
+  margin-bottom: 10px;
 }
 
 form .inputBox {
   position: relative;
   width: 70%;
   display: flex;
-  justify-content: space-between;  
+  justify-content: space-between;
 }
 
 form .inputBox a {
   color: #fff;
   text-decoration: none;
-  font-size: 0.85em;  
+  font-size: 0.85em;
 }
 
 form .inputBox a:nth-child(2) {
@@ -195,13 +195,13 @@ form .inputBox input::placeholder {
   color: rgba(255,255,255, .5);
 }
 
-form .inputBox input[type="submit"] { 
+form .inputBox input[type="submit"] {
   background: #2196f3;
   font-weight: 500;
   cursor: pointer;
 }
 
-form#signupform .inputBox input[type="submit"] { 
+form#signupform .inputBox input[type="submit"] {
   background: #f4242f;
 }
 form#signupform b {
