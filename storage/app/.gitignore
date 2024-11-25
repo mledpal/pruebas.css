@@ -1,3 +1,7 @@
 *
+<<<<<<< HEAD
+=======
+!private/
+>>>>>>> e37c40c (Commit temporal con mis archivos locales)
 !public/
 !.gitignore

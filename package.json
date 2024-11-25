@@ -1,5 +1,6 @@
 {
     "private": true,
+<<<<<<< HEAD
     "scripts": {
         "dev": "vite",
         "build": "vite build"
@@ -15,5 +16,19 @@
         "ts-loader": "^9.5.1",
         "typescript": "^5.4.5",
         "vite": "^4.0.0"
+=======
+    "type": "module",
+    "scripts": {
+        "build": "vite build",
+        "dev": "vite"
+    },
+    "devDependencies": {
+        "@tailwindcss/vite": "^4.0.0",
+        "axios": "^1.8.2",
+        "concurrently": "^9.0.1",
+        "laravel-vite-plugin": "^1.2.0",
+        "tailwindcss": "^4.0.0",
+        "vite": "^6.0.11"
+>>>>>>> e37c40c (Commit temporal con mis archivos locales)
     }
 }

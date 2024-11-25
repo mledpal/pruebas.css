@@ -1,5 +1,6 @@
 <?php
 
+<<<<<<< HEAD
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\PruebasController;
 use App\Http\Controllers\YoutubeController;
@@ -66,4 +67,14 @@ Route::controller(PruebasController::class)->group(function () {
     Route::get('/countdown', 'countdown')->name('countdown');
     Route::get('/tveocards', 'tveocards')->name('tveocards');
     Route::get('/glasslogin2', 'glasslogin2')->name('glasslogin2');
+=======
+use Illuminate\Support\Facades\Route;
+
+Route::get('/', function () {
+    return view('welcome');
+});
+
+Route::get('/about', function () {
+    return "Hola";
+>>>>>>> e37c40c (Commit temporal con mis archivos locales)
 });

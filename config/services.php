@@ -14,6 +14,7 @@ return [
     |
     */
 
+<<<<<<< HEAD
     'mailgun' => [
         'domain' => env('MAILGUN_DOMAIN'),
         'secret' => env('MAILGUN_SECRET'),
@@ -21,6 +22,8 @@ return [
         'scheme' => 'https',
     ],
 
+=======
+>>>>>>> e37c40c (Commit temporal con mis archivos locales)
     'postmark' => [
         'token' => env('POSTMARK_TOKEN'),
     ],
@@ -31,4 +34,18 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+<<<<<<< HEAD
+=======
+    'resend' => [
+        'key' => env('RESEND_KEY'),
+    ],
+
+    'slack' => [
+        'notifications' => [
+            'bot_user_oauth_token' => env('SLACK_BOT_USER_OAUTH_TOKEN'),
+            'channel' => env('SLACK_BOT_USER_DEFAULT_CHANNEL'),
+        ],
+    ],
+
+>>>>>>> e37c40c (Commit temporal con mis archivos locales)
 ];
