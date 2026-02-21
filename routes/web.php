@@ -66,4 +66,5 @@ Route::controller(PruebasController::class)->group(function () {
     Route::get('/countdown', 'countdown')->name('countdown');
     Route::get('/tveocards', 'tveocards')->name('tveocards');
     Route::get('/glasslogin2', 'glasslogin2')->name('glasslogin2');
+    Route::get('/digitalclock', 'digitalclock')->name('digitalclock');
 });

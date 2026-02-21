@@ -145,4 +145,8 @@ class PruebasController extends Controller
     public function glasslogin2() {
         return view('glasslogin2');
     }
+
+    public function digitalclock() {
+        return view('digitalclock');
+    }
 }
