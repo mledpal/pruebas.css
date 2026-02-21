@@ -22,6 +22,7 @@
             <li class="item"><a href="/contentslider">Content Slider</a></li>
             <li class="item"><a href="/countdown">Cuenta Atrás</a></li>
             <li class="item"><a href="/dialclimatico">Dial Climático</a></li>
+            <li class="item"><a href="/digitalclock">Reloj Digital</a></li>
             <li class="item"><a href="/glasseffect">Glass Effect</a></li>
             <li class="item"><a href="/glasslogin">Glassmorphism L&R</a></li>
             <li class="item"><a href="/glasslogin2">Glass Login 2</a></li>
